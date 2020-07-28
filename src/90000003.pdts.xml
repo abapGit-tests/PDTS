@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PDTS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PDTS>
+    <SHORT_TEXT>abapGitTest</SHORT_TEXT>
+    <PLVAR>01</PLVAR>
+    <WI_TEXT>abapGit Test</WI_TEXT>
+    <METHOD>
+     <OTYPE>TS</OTYPE>
+     <OBJID>90000003</OBJID>
+     <SWOTP>WFTS</SWOTP>
+     <SWMTD>EMPTYDIALOGMETHOD</SWMTD>
+     <METHTYPE>BO</METHTYPE>
+     <SYNCHRON>X</SYNCHRON>
+    </METHOD>
+   </PDTS>
+   <CONTAINER>
+    <CONTAINER>
+     <PROPERTIES>
+      <OWN_ID>
+       <INSTID>TS90000003</INSTID>
+       <TYPEID>CL_SWF_CNT_HRS_PERSISTENCE</TYPEID>
+       <CATID>CL</CATID>
+      </OWN_ID>
+      <PROPSTRING>23</PROPSTRING>
+      <XMLVERSION>0002</XMLVERSION>
+      <INTERNAL>X</INTERNAL>
+      <EXDEFINITN>
+       <NAME>_DEF_EXT</NAME>
+       <POR>
+        <INSTID>DIALOG_STEP_CONTAINER</INSTID>
+        <TYPEID>CL_SWF_CNT_PERSISTENCE_DEF_EXT</TYPEID>
+        <CATID>CL</CATID>
+       </POR>
+      </EXDEFINITN>
+     </PROPERTIES>
+     <ELEMENTS>
+      <A NAME="_ADHOC_OBJECTS:_Adhoc_Objects:" TYPE=":BO::h:0:0" PROPS="0C925A51" LTEXTS="EE014Ad Hoc ObjectsAd Hoc Objects of Workflow Instance"/>
+      <B NAME="_ATTACH_OBJECTS:_Attach_Objects:" TYPE="SOFM:BO::h:0:0" PROPS="0C925A51" LTEXTS="EE011AttachmentsAttachments of Workflow Instance"/>
+      <C NAME="_WI_ACTUAL_AGENT:_Wi_Actual_Agent:" TYPE="::WFSYST-AGENT:C:0:0" PROPS="0C002A11" LTEXTS="EE005AgentActual Agent of Workflow Activity"/>
+      <D NAME="_WI_GROUP_ID:_Wi_Group_ID:" TYPE=":BO::u:0:0" PROPS="0C921A11" LTEXTS="EE017Grouping Charact.Grouping Characteristic for Workflow Instances"/>
+      <E NAME="_WORKITEM:_Workitem:" TYPE="WORKINGWI:BO:::0:0" PROPS="0C921A11" LTEXTS="EE004StepStep Instance"/>
+      <F NAME="_WF_TICKET:_Wf_Ticket:" TYPE="::SWWTTICKET:h:0:0" PROPS="0C000271" LTEXTS="EE018Transaction TicketTransaction Ticket"/>
+      <G NAME="_RULE_RESULT:_Rule_Result:" TYPE="AAGENT:BO::u:0:0" PROPS="0C921A11" LTEXTS="EE006AgentsResult of Agent Determination"/>
+      <H NAME="_RFC_DESTINATION:_Rfc_Destination:" TYPE="::RFCDEST:C:0:0" PROPS="0C001231" LTEXTS="EE015RFC DestinationRFC Destination"/>
+      <I NAME="_ATTACH_COMMENT_OBJECTS:_Attach_Comment_Objects:" TYPE="SOFM:BO::h:0:0" PROPS="0C925A71" LTEXTS="EE007CommentComment"/>
+      <J NAME="_METHOD_OBJECTS:_Method_Objects:" TYPE=":BO::h:0:0" PROPS="0C925A51" LTEXTS="EE020Second.Method ObjectSecondary Method Objects of Workflow Activity"/>
+      <K NAME="_START_EVENT_IDENTIFIER:_Start_Event_Identifier:" TYPE="CL_SWF_UTL_EVT_IDENTIFIER:CL::h:0:0" PROPS="0CC20231" LTEXTS="EE017ID of Start EventID of Start Event"/>
+      <L NAME="_WF_TYPENAME_MAPPING:_WF_Typename_Mapping:" TYPE="::SWF_CNT_MAPPING_TAB:h:0:0" PROPS="0C120271" LTEXTS="EE022Relation of Type NamesRelation of Type Names (Original and Copy)"/>
+      <M NAME="ACTUALLYPROCBY:ActuallyProcBy:" TYPE="::WFSYST-ACT_AGENT:C:14:0" PROPS="0C003301"/>
+      <N NAME="_WI_OBJECT_ID:_Wi_Object_ID:" TYPE="WFTS:BO:::0:0" PROPS="0C921A11"/>
+     </ELEMENTS>
+    </CONTAINER>
+   </CONTAINER>
+  </asx:values>
+ </asx:abap>
+</abapGit>
