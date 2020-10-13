@@ -5,7 +5,7 @@
    <PDTS>
     <SHORT_TEXT>abapGitTest</SHORT_TEXT>
     <PLVAR>01</PLVAR>
-    <WI_TEXT>abapGit Test &amp;_WI_OBJECT_ID.BUSINESSPARTNER&amp;</WI_TEXT>
+    <WI_TEXT>abapGit Test: &amp;_WI_OBJECT_ID.BUSINESSPARTNER&amp;</WI_TEXT>
     <METHOD>
      <OTYPE>TS</OTYPE>
      <OBJID>90000005</OBJID>
